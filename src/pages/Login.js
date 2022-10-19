@@ -3,6 +3,9 @@ import { useLocation } from "react-router-dom";
 import querystring from "querystring";
 import { decode } from "url-encode-decode";
 
+// Login with below url having user, state paramenters in URL query
+// http://localhost:3000/?user=AT9JNMjd4Ao62aicZT2HYFgPUHP46ttrDtBffdYjDw0%3D&brand=AT9JNMjyKFP8Pyx97XGcYz5ZVm_rIBdcxXTW_mPn4yI%3D&extensions=CONTENT&time=1666175081&state=-b3GW1qUeaaMNndY1yK9e0uXFeWszcU6iRyOIsoXKvX-fZQPjICksO6lHh9lxl_0jd8KS0hGIlfaHEJRCJFxuvu0QUqrIgAxGa71FbT-VsnF9kEDFJ4xsp8aDhvd6C2uO6sML5SLzxa08PjnIsWrETyvKcEJ21uRis44c1IZeW_aTEY58N9Wsw3COxpTuw15JBKwwVwjgml6aVXKsi9VYhOiBt4&signatures=bda71b63c8435ac373f71751665a13feb44d7c45b6e47a88f3822e0edd9ef768
+
 // /?user=AT9JNMjd4Ao62aicZT2HYFgPUHP46ttrDtBffdYjDw0%3D&brand=AT9JNMjyKFP8Pyx97XGcYz5ZVm_rIBdcxXTW_mPn4yI%3D&extensions=CONTENT&time=1666161434&state=sMk1abJvkROi3FWujJWg5YVesBSkR7hx0Pla4dGoXeSwZD9HpqXrgAUgwu3BE0upZsPl4RVlnpN6Q_IaVOCFgcr5lIntA_-eHAu5f8BA24MMsg3o3sqPzXPcfOylajDsKLprihldRU8PuC4yqr0eye40G18p5FyJ9xBiiww4Qyatvy6lHPRr4gL8s62_ToRNkVzGCj0OWdSOAJ4YTAY9Rr4YKVE&signatures=015a89d6720ea1855beda9cd0ca98c81057db6cebb1574c1b981c0c9c223bf81
 
 // https://silver-bavarois-1eda0d.netlify.app/?
