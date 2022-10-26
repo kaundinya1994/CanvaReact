@@ -31,7 +31,7 @@ function App() {
   async function loginUser(event) {
     event.preventDefault();
     console.log(userID);
-    const response = await fetch("http://localhost:1337/api/login", {
+    const response = await fetch("https://canva-node.herokuapp.com/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -56,12 +56,7 @@ function App() {
 
       window.location.href = `https://canva.com/apps/configured?${params}`;
 
-      //   await fetch(`http://localhost:1337/${search}`, {
-      //     method: "GET",
-      //     headers: {
-      //       "Content-Type": "application/json",
-      //     },
-      //   });
+
     }
   }
 

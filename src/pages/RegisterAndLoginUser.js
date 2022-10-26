@@ -13,7 +13,7 @@ function App() {
     event.preventDefault();
 
     const response = await fetch(
-      "http://localhost:1337/api/register",
+      "https://canva-node.herokuapp.com/api/register",
       {
         method: "POST",
         headers: {
