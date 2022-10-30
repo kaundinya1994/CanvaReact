@@ -1,0 +1,40 @@
+.loginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+    background-image: url('https://uat.pim.media.officebanao.com/DAM%20Data/DAM%20Image/Room%20Configurator/Boardroom_Modern_03/Boardroom_Modern_03_Related%20Image%203/mg-stationery-offices-shanghai-13-1200x765-compact.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+    z-index: 2;
+    background: rgba(14, 17, 35, 0.8);
+
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("https://uat.pim.media.officebanao.com/DAM%20Data/DAM%20Image/Room%20Configurator/Boardroom_Modern_03/Boardroom_Modern_03_Related%20Image%203/mg-stationery-offices-shanghai-13-1200x765-compact.jpg");
+  
+    /* Add the blur effect */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+  
+    /* Full height */
+    height: 100% !important;
+
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.canvaRoundLogo{
+    margin-top: 5%;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
